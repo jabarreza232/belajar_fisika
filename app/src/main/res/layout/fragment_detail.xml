@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context=".fragment.DetailFragment"
+
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/frame_container2"
+    >
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Video Materi Usaha Energi Kinetik"
+       android:padding="16dp"
+       android:textColor="#000"
+       android:textStyle="bold"
+       android:textSize="16sp"
+       />
+
+   <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/player"
+    />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Video Materi konversi satuan"
+       android:padding="16dp"
+       android:id="@+id/txt_video_materi"
+       android:textStyle="bold"
+       android:textSize="16sp"
+       android:textColor="#000"
+       />
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+</ScrollView>

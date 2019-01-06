@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="10dp"
+    >
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/img_list"
+        android:src="@drawable/ss"
+        />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Judul"
+    android:maxLines="1"
+    android:textColor="#000"
+android:ellipsize="end"
+    android:textSize="20sp"
+ android:id="@+id/judul_materi"
+
+    />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Isi Materi"
+    android:textSize="20sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+
+android:layout_marginTop="10dp"
+ android:id="@+id/isi_materi"
+
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:text="Isi Materi 2"
+        android:textSize="20sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/isi_materi2"
+
+        />
+
+
+
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_marginTop="265dp"
+        >
+        <ImageView
+            android:layout_width="25dp"
+
+            android:layout_height="25dp"
+
+            android:src="@drawable/ic_favorite_border_black_24dp"
+            />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_message_black_24dp"
+            />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_share_black_24dp"
+            />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+
+</LinearLayout>

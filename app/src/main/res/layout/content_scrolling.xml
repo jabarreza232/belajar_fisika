@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".view.ScrollingActivity"
+    android:padding="16dp"
+    tools:showIn="@layout/activity_scrolling">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:padding="16dp"
+         >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+      android:layout_gravity="center"
+             android:text="Judul"
+             android:id="@+id/txt_judul"
+             android:textSize="25sp"
+                android:textColor="#000"
+             android:layout_marginBottom="16dp"
+             android:textStyle="bold"
+             />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="isi_materi"
+             android:id="@+id/txt_materi"
+             android:textSize="18sp"
+
+             android:layout_marginBottom="16dp"
+             /><TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="isi_materi2"
+             android:id="@+id/txt_materi_2"
+             android:textSize="18sp"
+             android:layout_marginBottom="16dp"
+             />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+<Button
+    android:layout_width="30dp"
+android:background="@null"
+    android:layout_height="50dp"
+    android:drawableStart="@drawable/ic_favorite_border_black_24dp"
+    />
+    <Button
+    android:layout_width="30dp"
+android:background="@null"
+    android:layout_height="50dp"
+    android:drawableStart="@drawable/ic_share_black_24dp"
+    />
+</LinearLayout>
+     </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+
+    <!--<com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="220dp"
+        android:padding="16dp"
+
+        android:layout_height="220dp"
+        android:id="@+id/player"
+
+        />
+!-->
+
+
+</android.support.v4.widget.NestedScrollView>

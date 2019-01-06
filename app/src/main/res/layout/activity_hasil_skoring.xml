@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    tools:context=".view.HasilSkoring">
+    <ImageView
+        android:id="@+id/imageCongrats"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/congrats"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Selamat ! Kamu menyelesaikan Quiz "
+        android:textColor="#000"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvSkorAkhir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+   android:layout_gravity="center"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="NILAI : 100"
+        android:textColor="#000"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="220dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+android:textAllCaps="false"
+        android:text="Mulai lagi?"
+        android:background="#6fce83"
+        android:textColor="#fff"
+         android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:text="Balik Ke pilihan Quiz "
+        android:background="#e23737"
+        android:textColor="#fff"
+         android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary2"
+        android:textColor="#fff"
+        android:layout_marginBottom="20dp"
+android:textAllCaps="false"
+        android:text="Share"
+         android:textSize="20sp"/>
+
+</LinearLayout>

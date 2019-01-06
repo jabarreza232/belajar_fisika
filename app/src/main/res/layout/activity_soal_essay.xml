@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    tools:context=".soal.SoalEssay">
+    <LinearLayout
+        android:id="@+id/lineSkor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NILAI : "
+            android:textColor="#000"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:id="@+id/tvSkor2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#000"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/timer"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        />
+    <TextView
+        android:layout_width="110dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:background="@color/colorPrimary2"
+        android:text="Timer"
+        android:id="@+id/txt_timer_essay"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:id="@+id/lineGambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lineSkor2"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivGambar"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvSoal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtJawaban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lineGambar"
+        android:layout_margin="10dp"
+        android:background="#fff"
+        android:gravity="center"
+        android:hint="Masukkan Jawaban disini"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnSubmit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_gravity="right"
+        android:layout_below="@id/edtJawaban"
+        android:layout_margin="10dp"
+        android:text="Jawab"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary2"/>
+
+</LinearLayout></ScrollView>

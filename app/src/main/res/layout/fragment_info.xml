@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Info">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+ android:layout_marginTop="20dp"
+    android:src="@drawable/zzz"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Apa itu Aplikasi Belajar Fisika?"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/isi_info"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="16dp"
+
+        />
+
+
+</LinearLayout>
+</FrameLayout>
