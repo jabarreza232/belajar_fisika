@@ -37,13 +37,13 @@ item = (Fisika)getIntent().getSerializableExtra(KEY_ITEM);
 txt_judul.setText(Html.fromHtml(item.getJudul()));
 txt_isi.setText(Html.fromHtml(item.getIsi_materi()));
 txt_isi2.setText(Html.fromHtml(item.getIsi_materi2()));
+
 Glide.with(ScrollingActivity.this).load(item.getGambar()).asBitmap().into(new SimpleTarget<Bitmap>(){
             public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
                 Drawable drawable = new BitmapDrawable(resource);
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
                     imgPhoto.setBackground(drawable);
                 }
-
             }
         });
 

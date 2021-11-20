@@ -63,7 +63,7 @@ public class fragment_materi extends Fragment {
                     Fisika fisika = (Fisika) list.get(position);
                     Intent intent = new Intent(getActivity(), ScrollingActivity.class);
                     intent.putExtra(ScrollingActivity.KEY_ITEM, fisika);
-                    startActivityForResult(intent, 0);
+                    startActivity(intent);
                 }
             });
 
