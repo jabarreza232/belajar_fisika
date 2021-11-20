@@ -12,6 +12,6 @@ Aplikasi Belajar Fisika
 </p>
 
 # Fitur-fitur yang di sediakan
-- [X] Favorite team dan event match
-- [X] Schedule next match & last match
-- [X] Show list team by league
+- [X] Materi
+- [X] Video Pembelajaran
+- [X] Quiz
